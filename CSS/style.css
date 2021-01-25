@@ -4,7 +4,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     z-index: 1;
-    height: 17vh;
+    height: 127px;
     left: 0;
     right: 0;
     margin: auto;
@@ -14,22 +14,23 @@ header{
 header>img{
     width: 110px;
     height: 105px;
-    padding-top: 1vh;
-    padding-left: 1.5vw;
+    padding-top: 13px;
+    padding-left: 16px;
 }
 
 header>ul{
     position: absolute;
-    right: 3vw;
+    right: 27px;
     font-size: 30px;
-    top: 1.5vh;
+    top: 20px;
     list-style: none;
 }
 
 header>ul>li{
     display: inline-block;
     font-family:'IBM Plex Sans', sans-serif;
-    padding-left: 2vw;
+    font-weight: 700;
+    padding-left: 35px;
     color:  #5B157B;
 
 }
@@ -41,9 +42,9 @@ main{
 main>section:nth-child(1){
     width: 100%;
     position: absolute;
-    height: 110vh;
+    height: 788px;
     background: linear-gradient(0deg, rgba(227,227,227,1) 0%, rgba(224,224,224,1) 100%);
-    top: 17vh;
+    top: 127px;
 
 }
 
@@ -51,18 +52,19 @@ main>section:nth-child(1)>img:nth-child(1){
     position: absolute;
     width: 1100px;
     height: 790px;
-    bottom: 0;
+    bottom: 80px;
     right: 0.2vh;
 
 }
 
 main>section:nth-child(1)>p:nth-child(2){
     /* HELLO I AM THIHAN GAMAGE */
-    padding-top: 16vh;
-    padding-left: 3vw;
+    padding-top: 110px;
+    padding-left: 35px;
     font-size: 64px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: rgb(219,219,219);
     background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(31, 31, 31), rgb(146, 146, 146));
     -webkit-background-clip: text;
@@ -71,11 +73,12 @@ main>section:nth-child(1)>p:nth-child(2){
 
 main>section:nth-child(1)>p:nth-child(3){
     /* ASSOCIATE SOFTWARE ENGINEER */
-    padding-top: 5vh;
-    padding-left: 3vw;
+    padding-top: 35px;
+    padding-left: 35px;
     font-size: 50px;
     margin: 0;
     font-family:'IBM Plex Sans', sans-serif;
+    font-weight: 700;
     background : -webkit-linear-gradient(#6b2a86, #6d3278, rgb(23, 23, 23));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -86,15 +89,16 @@ main>section:nth-child(1)>button:nth-child(4){
     position: absolute;
     width: 270px;
     height: 93px;
-    margin-left: 7vw;
+    margin-left: 91px;
     text-align: center;
     background: #9EE473;
     border-radius: 30px;
     border: 0;
-    margin-top: 12vh;
+    margin-top: 92px;
     cursor: pointer;
     box-shadow: 10px 10px 22px 3px #282828;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
     font-size: 34px;
 
 }
@@ -104,33 +108,33 @@ main>section:nth-child(1)>button:nth-child(5){
     position: absolute;
     width: 213px;
     height: 93px;
-    margin-left: 35vw;
+    margin-left: 456px;
     text-align: center;
     background: -webkit-linear-gradient(#7E89E9,#72DCE2);
     border-radius: 30px;
     border: 0;
-    margin-top: 12vh;
+    margin-top: 92px;
     cursor: pointer;
     box-shadow: 10px 10px 22px 3px #282828;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
     font-size: 38px;
 
 }
 
 main>section:nth-child(1)>div:nth-child(6){
-    width: 20vw;
-    padding-left: 5vw;
-    padding-top: 44vh;
-    height: 5vh;
+    margin-left: 50px;
+    padding-top: 290px;
+    height: 63px;
     display: flex;
     align-items: center;
 
 }
 
 main>section:nth-child(1)>div:nth-child(6)>img{
-    padding-left: 4vw;
-    width: 5vw;
-    height: 10vh;
+    padding-left: 55px;
+    width: 68px;
+    height: 63px;
 
 }
 
@@ -155,6 +159,7 @@ main>section:nth-child(2)>p:nth-child(1){
     font-size: 64px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: rgb(219,219,219);
     background: -webkit-linear-gradient(#242424, #4b4b4b, #4d2a52);
     -webkit-background-clip: text;
@@ -177,6 +182,7 @@ main>section:nth-child(2)>p:nth-child(3){
     left: 32vw;
     font-size: 36px;
     font-family:'IBM Plex Sans', sans-serif;
+    font-weight: 700;
     color: black;
 }
 
@@ -203,6 +209,7 @@ main>section:nth-child(2)>div:nth-child(5){
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: black;
 }
 
@@ -238,6 +245,7 @@ main>section:nth-child(4)>p:nth-child(1){
     font-size: 64px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: rgb(219,219,219);
     background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
     -webkit-background-clip: text;
@@ -269,20 +277,46 @@ main>section:nth-child(4)>div:nth-child(2)>div{
 }
 
 main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div{
+    /*  Back Circle and Yellow Circle*/
     position: absolute;
     width: 210px;
     height: 207px;
+    left: 30px;
+    top:0;
     bottom: 0;
-    top: 0;
-    left: 2vw;
     margin: auto;
     border-radius: 50%;
 
     background: #C9C9C9;
     background-image:
         /* 10% = 126deg = 90 + ( 360 * .1 ) */
-            linear-gradient(90deg, transparent 50%, #F88600 50%),
-            linear-gradient(25deg, #F88600 50%, transparent 50%);
+            linear-gradient(90deg, transparent 50%, #CC2D2D 50%),
+            linear-gradient(30deg, #CC2D2D 50%, transparent 50%);
+
+
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>div{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>div>h1{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    top: 10px;
+    left: 30px;
 
 
 }
@@ -303,6 +337,50 @@ main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>p{
     font-family: 'Roboto', sans-serif;
 }
 
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div{
+    /*  Back Circle and Orange Circle*/
+    position: absolute;
+    width: 210px;
+    height: 207px;
+    left: 30px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+
+    background: #C9C9C9;
+    background-image:
+            linear-gradient(90deg, transparent 50%, #F88600 50%),
+            linear-gradient(25deg, #F88600 50%, transparent 50%);
+
+
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>div{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>div>h1{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    top: 10px;
+    left: 30px;
+
+
+}
+
 main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>img{
     width: 9vw;
     height: 18vh;
@@ -317,6 +395,50 @@ main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>p{
     top: 24vh;
     right: 2.2vw;
     font-family: 'Roboto', sans-serif;
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div{
+    /*  Back Circle and Yellow Circle*/
+    position: absolute;
+    width: 210px;
+    height: 207px;
+    left: 30px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+
+    background: #C9C9C9;
+    background-image:
+            linear-gradient(90deg, transparent 50%, #0054F8 50%),
+            linear-gradient(35deg, #0054F8 50%, transparent 50%);
+
+
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div>div{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div>div>h1{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    top: 10px;
+    left: 30px;
+
+
 }
 
 main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>img{
@@ -335,6 +457,49 @@ main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>p{
     font-family: 'Roboto', sans-serif;
 }
 
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>div{
+    /*  Back Circle and Orange Circle*/
+    position: absolute;
+    width: 210px;
+    height: 207px;
+    left: 30px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+
+    background: #C9C9C9;
+    background-image:
+            linear-gradient(90deg, transparent 50%, #AD9C04 50%),
+            linear-gradient(20deg, #AD9C04 50%, transparent 50%);
+
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>div>div{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>div>div>h1{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    top: 10px;
+    left: 30px;
+
+
+}
+
 main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>img{
     width: 9vw;
     height: 18vh;
@@ -351,6 +516,49 @@ main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>p{
     top: 22vh;
     right: 3vw;
     font-family: 'Roboto', sans-serif;
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>div{
+    /*  Back Circle and Orange Circle*/
+    position: absolute;
+    width: 210px;
+    height: 207px;
+    left: 30px;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+
+    background: #C9C9C9;
+    background-image:
+            linear-gradient(90deg, transparent 50%, #04AD15 50%),
+            linear-gradient(23deg, #04AD15 50%, transparent 50%);
+
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>div>div{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    left: 0;
+    right: 0;
+    top:0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+
+main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>div>div>h1{
+    position: absolute;
+    width: 170px;
+    height: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    top: 10px;
+    left: 30px;
+
+
 }
 
 main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>img{
@@ -376,6 +584,7 @@ main>section:nth-child(4)>p:nth-child(3){
     font-size: 64px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: rgb(219,219,219);
     background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
     -webkit-background-clip: text;
@@ -458,6 +667,7 @@ main>section:nth-child(4)>div:nth-child(4)>div:nth-child(3)>img{
 }
 
 main>section:nth-child(4)>div:nth-child(4)>div:nth-child(3)>p{
+
     font-size: 24px;
     position: absolute;
     right:0;
@@ -501,7 +711,7 @@ main>div:nth-child(5){
 main>section:nth-child(6){
     width: 100%;
     position: absolute;
-    height: 100vh;
+    height: 115vh;
     background: rgb(177,177,177);
     background: linear-gradient(0deg, rgba(177,177,177,1) 0%, rgba(226,226,226,1) 100%);
     top: 447vh;
@@ -509,11 +719,12 @@ main>section:nth-child(6){
 
 main>section:nth-child(6)>p:nth-child(1){
     /*Projects*/
-    padding-top: 8vh;
+    padding-top: 6vh;
     padding-left: 6vw;
     font-size: 64px;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     color: rgb(219,219,219);
     background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
     -webkit-background-clip: text;
@@ -563,6 +774,7 @@ main>section:nth-child(6)>div:nth-child(2)>div:nth-child(1)>p{
     text-align: center;
     bottom: 10vh;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
 }
 
 main>section:nth-child(6)>div:nth-child(2)>div:nth-child(1)>button{
@@ -603,6 +815,7 @@ main>section:nth-child(6)>div:nth-child(2)>div:nth-child(2)>p{
     text-align: center;
     bottom: 12vh;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
 }
 
 main>section:nth-child(6)>div:nth-child(2)>div:nth-child(2)>button{
@@ -643,6 +856,7 @@ main>section:nth-child(6)>div:nth-child(2)>div:nth-child(3)>p{
     text-align: center;
     bottom: 12vh;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
 }
 
 main>section:nth-child(6)>div:nth-child(2)>div:nth-child(3)>button{
@@ -683,6 +897,7 @@ main>section:nth-child(6)>div:nth-child(2)>div:nth-child(4)>p{
     text-align: center;
     bottom: 12vh;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
 }
 
 main>section:nth-child(6)>div:nth-child(2)>div:nth-child(4)>button{
@@ -707,7 +922,7 @@ main>section:nth-child(6)>div:nth-child(2)>div:nth-child(4)>button{
 
 main>section:nth-child(6)>div:nth-child(3){
     position: absolute;
-    bottom: 4vh;
+    bottom: 15vh;
     height: 10vh;
     width: 10vw;
     left: 0;
@@ -741,3 +956,757 @@ main>div:nth-child(7){
     top: 447vh;
     height: 2px;
 }
+
+main>section:nth-child(8){
+    width: 100%;
+    position: absolute;
+    height: 135vh;
+    background: rgb(203,203,203);
+    background: linear-gradient(0deg, rgba(203,203,203,1) 0%, rgba(177,177,177,1) 100%);
+    top: 562vh;
+}
+
+main>section:nth-child(8)>p:nth-child(1){
+    /*Projects*/
+    padding-top: 6vh;
+    padding-left: 4vw;
+    font-size: 64px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgb(219,219,219);
+    background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+main>section:nth-child(8)>p:nth-child(1)>span{
+    background-image: linear-gradient(transparent 82px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+}
+
+main>section:nth-child(8)>div:nth-child(2){
+    /*Line*/
+    position: absolute;
+    width: 580px;
+    background: black;
+    transform: rotate(-90.0deg);
+    top: 500px;
+    left: 350px;
+    height: 2px;
+}
+
+main>section:nth-child(8)>div:nth-child(3){
+    position: absolute;
+    left: 438px;
+    top: 220px;
+    height: 550px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+main>section:nth-child(8)>div:nth-child(3)>div{
+    position: relative;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+
+main>section:nth-child(8)>div:nth-child(3)>div:nth-child(1){
+    background: #32D556;
+}
+
+main>section:nth-child(8)>div:nth-child(3)>div:nth-child(2){
+    background: #0167FF;
+}
+
+main>section:nth-child(8)>div:nth-child(3)>div:nth-child(3){
+    background: #FF9901;
+}
+
+main>section:nth-child(8)>div:nth-child(3)>div:nth-child(4){
+    background:#FF0101;
+}
+
+main>section:nth-child(8)>div:nth-child(4){
+    position: relative;
+    height: 190px;
+    width: 434px;
+    border: 2px solid black;
+    border-top: 5px solid #32D456;
+    background: gainsboro;
+    left: -40px;
+    top: -45px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+main>section:nth-child(8)>div:nth-child(4):after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: 100%;
+    top: 65%;
+   background: gainsboro;
+    border-top: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-right: 2px solid black;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+main>section:nth-child(8)>div:nth-child(4)>h1:nth-child(1){
+    position: absolute;
+    top: -5px;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(4)>h1:nth-child(2){
+    position: absolute;
+    top: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color:  #545454;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(4)>h1:nth-child(3){
+    position: absolute;
+    top: 110px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 27px;
+    left:10px;
+    font-weight: 600;
+}
+
+main>section:nth-child(8)>div:nth-child(5){
+    position: relative;
+    height: 190px;
+    width: 450px;
+    border: 2px solid black;
+    border-top: 5px solid #0167FF;
+    background: gainsboro;
+    left: 670px;
+    top: 5px;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+main>section:nth-child(8)>div:nth-child(5):after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: -3px;
+    top: 60%;
+    background: gainsboro;
+    border-top: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-right: 2px solid black;
+    transform: rotate(225deg);
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+main>section:nth-child(8)>div:nth-child(5)>h1:nth-child(1){
+    position: absolute;
+    top: -5px;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(5)>h1:nth-child(2){
+    position: absolute;
+    top: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color:  #545454;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(5)>h1:nth-child(3){
+    position: absolute;
+    top: 110px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 27px;
+    left:10px;
+    font-weight: 600;
+}
+
+main>section:nth-child(8)>div:nth-child(6){
+    position: relative;
+    height: 190px;
+    width: 434px;
+    border: 2px solid black;
+    border-top: 5px solid #FF9901;
+    background: gainsboro;
+    left: -40px;
+    top: -150px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-transform: translate(50%, 50%);
+    transform: translate(50%, 50%);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+main>section:nth-child(8)>div:nth-child(6):after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: 100%;
+    top: 65%;
+    background: gainsboro;
+    border-top: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-right: 2px solid black;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+main>section:nth-child(8)>div:nth-child(6)>h1:nth-child(1){
+    position: absolute;
+    top: -5px;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(6)>h1:nth-child(2){
+    position: absolute;
+    top: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color:  #545454;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(6)>h1:nth-child(3){
+    position: absolute;
+    top: 110px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 27px;
+    left:10px;
+    font-weight: 600;
+}
+
+main>section:nth-child(8)>div:nth-child(7){
+    position: relative;
+    height: 190px;
+    width: 450px;
+    border: 2px solid black;
+    border-top: 5px solid #FF0000;
+    background: gainsboro;
+    left: 670px;
+    top: -100px;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+main>section:nth-child(8)>div:nth-child(7):after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    left: -3px;
+    top: 60%;
+    background: gainsboro;
+    border-top: 2px solid black;
+    border-left: none;
+    border-bottom: none;
+    border-right: 2px solid black;
+    transform: rotate(225deg);
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+main>section:nth-child(8)>div:nth-child(7)>h1:nth-child(1){
+    position: absolute;
+    top: -5px;
+    font-size: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 600;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(7)>h1:nth-child(2){
+    position: absolute;
+    top: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    color:  #545454;
+    left:10px;
+}
+
+main>section:nth-child(8)>div:nth-child(7)>h1:nth-child(3){
+    position: absolute;
+    top: 110px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 27px;
+    left:10px;
+    font-weight: 600;
+}
+
+
+main>div:nth-child(9){
+    /*Line 4*/
+    position: absolute;
+    width: 100%;
+    background: black;
+    transform: rotate(-0.0deg);
+    top: 562vh;
+    height: 2px;
+}
+
+main>section:nth-child(10){
+    width: 100%;
+    position: relative;
+    height: 90vh;
+    background: rgb(185,182,182);
+    background: linear-gradient(0deg, rgba(185,182,182,1) 0%, rgba(177,177,177,1) 100%);
+    top: 697vh;
+}
+
+main>section:nth-child(10)>p:nth-child(1){
+    /*Testimonial*/
+    padding-top: 8vh;
+    padding-left: 4vw;
+    font-size: 64px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgb(219,219,219);
+    background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+main>section:nth-child(10)>p:nth-child(1)>span{
+    background-image: linear-gradient(transparent 82px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+}
+
+main>section:nth-child(10)>div:nth-child(2){
+    position: absolute;
+    width: 1200px;
+    height: 280px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 200px;
+    background: #FFFFFF;
+    border-radius: 19px;
+    border-bottom:  5px solid #00FA82;
+}
+
+main>section:nth-child(10)>div:nth-child(2)>h1{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'IBM Plex Sans', sans-serif;
+    top: 30px;
+    left: 25px;
+
+}
+
+main>section:nth-child(10)>div:nth-child(2)>p{
+    position: absolute;
+    font-size: 22px;
+    font-weight: 400;
+    font-family: 'IBM Plex Sans', sans-serif;
+    top: 90px;
+    left: 35px;
+
+}
+
+main>section:nth-child(10)>div:nth-child(2)>img:nth-child(3){
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right: 60px;
+    transform: rotate(90deg);
+}
+
+main>section:nth-child(10)>div:nth-child(2)>img:nth-child(4){
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: 30px;
+    right: 120px;
+    transform: rotate(270deg);
+}
+
+main>div:nth-child(11){
+    /*Line 5*/
+    position: absolute;
+    width: 100%;
+    background: black;
+    transform: rotate(-0.0deg);
+    top: 697vh;
+    height: 2px;
+}
+
+main>section:nth-child(12){
+    width: 100%;
+    position: absolute;
+    height: 240vh;
+    background: rgb(218,218,218);
+    background: linear-gradient(0deg, rgba(218,218,218,1) 0%, rgba(179,179,179,1) 100%);
+    top: 787vh;
+}
+
+main>section:nth-child(12)>p:nth-child(1){
+    /*Contact Me*/
+    padding-top: 8vh;
+    padding-left: 4vw;
+    font-size: 64px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: rgb(219,219,219);
+    background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+main>section:nth-child(12)>p:nth-child(1)>span{
+    background-image: linear-gradient(transparent 82px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+}
+
+main>section:nth-child(12)>p:nth-child(2){
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+}
+
+main>section:nth-child(12)>p:nth-child(3){
+    /*Your Name*/
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    color: #000B6B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+main>section:nth-child(12)>input:nth-child(4){
+    position: absolute;
+    width: 450px;
+    height: 40px;
+    top: 380px;
+    left: 80px;
+    border: 1px solid black;
+    box-shadow: 2px 10px 11px -5px #282828;;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background: lightgray;
+}
+
+main>section:nth-child(12)>p:nth-child(5){
+    /*Email*/
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    color: #000B6B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+main>section:nth-child(12)>input:nth-child(6){
+    position: absolute;
+    width: 450px;
+    height: 40px;
+    top: 380px;
+    left: 800px;
+    border: 1px solid black;
+    box-shadow: 2px 10px 11px -5px #282828;;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background: lightgray;
+}
+
+main>section:nth-child(12)>p:nth-child(7){
+    position: absolute;
+    top: 500px;
+    left: 80px;
+    color: #000B6B;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+main>section:nth-child(12)>textarea:nth-child(8){
+    position: absolute;
+    width: 850px;
+    height: 200px;
+    top: 590px;
+    left: 80px;
+    border: 1px solid black;
+    box-shadow: 2px 10px 11px -5px #282828;;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    background: lightgray;
+}
+
+main>section:nth-child(12)>button:nth-child(9){
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    top: 900px;
+    left: 90px;
+    background: #416EE2;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 10px 10px 22px 3px #282828;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: white;
+
+}
+
+main>section:nth-child(12)>div:nth-child(10){
+    /*Line*/
+    position: absolute;
+    width: 100%;
+    background: black;
+    transform: rotate(-0.0deg);
+    top: 1040px;
+    height: 2px
+}
+
+main>section:nth-child(12)>img:nth-child(11){
+    position: absolute;
+    width: 75px;
+    height: 78px;
+    left: 100px;
+    top: 1130px;
+}
+
+main>section:nth-child(12)>p:nth-child(12){
+    position: absolute;
+    top: 1105px;
+    left: 190px;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+main>section:nth-child(12)>p:nth-child(13){
+    position: absolute;
+    top: 1150px;
+    left: 190px;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+main>section:nth-child(12)>img:nth-child(14){
+    position: absolute;
+    width: 75px;
+    height: 78px;
+    left: 100px;
+    top: 1265px;
+}
+
+main>section:nth-child(12)>p:nth-child(15){
+    position: absolute;
+    top: 1240px;
+    left: 190px;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+main>section:nth-child(12)>p:nth-child(16){
+    position: absolute;
+    top: 1280px;
+    left: 190px;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+
+main>section:nth-child(12)>img:nth-child(17){
+    position: absolute;
+    width: 75px;
+    height: 78px;
+    left: 100px;
+    top: 1400px;
+}
+
+main>section:nth-child(12)>p:nth-child(18){
+    position: absolute;
+    top: 1380px;
+    left: 190px;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+main>section:nth-child(12)>p:nth-child(19){
+    width: 260px;
+    position: absolute;
+    top: 1420px;
+    left: 190px;
+    color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+main>section:nth-child(12)>img:nth-child(20){
+    position: absolute;
+    width: 650px;
+    height: 380px;
+    left: 600px;
+    top: 1120px;
+}
+
+main>div:nth-child(13){
+    /*Line 6*/
+    position: absolute;
+    width: 100%;
+    background: black;
+    transform: rotate(-0.0deg);
+    top: 787vh;
+    height: 2px;
+}
+
+main>section:nth-child(14){
+    width: 100%;
+    position: absolute;
+    height: 15vh;
+    background: #C1C1C1;
+    top: 1027vh;
+}
+
+main>section:nth-child(14)>div:nth-child(1){
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100px;
+    margin: auto;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main>section:nth-child(14)>div:nth-child(1)>img{
+    width: 50px;
+    height: 50px;
+}
+
+main>section:nth-child(14)>div:nth-child(2){
+    /*Line*/
+    position: absolute;
+    width: 295px;
+    background: black;
+    transform: rotate(-0.0deg);
+    top: 0;
+    bottom: 0;
+    left: 580px;
+    margin: auto;
+    height: 2px;
+}
+
+main>section:nth-child(14)>p:nth-child(3){
+    position: absolute;
+    font-family: 'Ibarra Real Nova', serif;
+    left: 920px;
+    font-size: 34px;
+}
+
+main>header:nth-child(15){
+    width: 100%;
+    position: absolute;
+    height: 16vh;
+    background: #CBCDBB;
+    top: 1042vh;
+}
+
+main>header:nth-child(15)>h1{
+    position: absolute;
+    font-family: "IBM Plex Sans";
+    font-weight: 600;
+    text-align: center;
+    left: 0;
+    right: 0;
+    top: 15px;
+    margin: auto;
+    font-size: 34px;
+}
+
+main>header:nth-child(15)>h3{
+    position: absolute;
+    font-family: "IBM Plex Sans";
+    color: #7A7A7A;
+    font-weight: 600;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    font-size: 22px;
+}
+
+
+
