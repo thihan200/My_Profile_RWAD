@@ -5206,6 +5206,7 @@ main>section:nth-child(15)>h3{
     }
 
     header>img:nth-child(2){
+        display: block;
         position: absolute;
         width: 30px;
         height: 30px;
@@ -5213,7 +5214,6 @@ main>section:nth-child(15)>h3{
         bottom: 0;
         margin: auto;
         padding-left: 20px;
-        display: block;
     }
 
     header>ul{
@@ -6919,6 +6919,1714 @@ main>section:nth-child(15)>h3{
 }
 
 @media all and (min-width: 426px) and (max-width: 768px){
+
+    header{
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        z-index: 1;
+        height: 127px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        background-color: #CFC5AB;
+    }
+
+    header>img:nth-child(1){
+        width: 80px;
+        height: 85px;
+        padding-top: 24px;
+        padding-left: 16px;
+    }
+
+    header>img:nth-child(2){
+        width: 20px;
+        height: 20px;
+        padding-top: 13px;
+        padding-left: 16px;
+        display: none;
+    }
+
+    header>ul{
+        position: absolute;
+        right: 20px;
+        font-size: 19px;
+        top: 35px;
+        list-style: none;
+    }
+
+    header>ul>li{
+        display: inline-block;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        padding-left: 20px;
+        color: #5B157B;
+
+    }
+
+    main{
+        position: relative;
+
+    }
+
+    main>section:nth-child(1){
+        width: 100%;
+        position: absolute;
+        height: 788px;
+        background: linear-gradient(0deg, rgba(227,227,227,1) 0%, rgba(224,224,224,1) 100%);
+        top: 127px;
+
+    }
+
+    main>section:nth-child(1)>img:nth-child(1){
+        position: absolute;
+        width: 770px;
+        height: 560px;
+        bottom: 250px;
+        right: 2px;
+
+    }
+
+    main>section:nth-child(1)>p:nth-child(2){
+        /* HELLO I AM THIHAN GAMAGE */
+        padding-top: 110px;
+        padding-left: 35px;
+        font-size: 33px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0), rgb(99, 99, 99));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    main>section:nth-child(1)>p:nth-child(3){
+        /* ASSOCIATE SOFTWARE ENGINEER */
+        padding-top: 35px;
+        padding-left: 35px;
+        font-size: 26px;
+        margin: 0;
+        font-family:'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        background : -webkit-linear-gradient(#6b2a86, #6d3278, rgb(69, 69, 69));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    main>section:nth-child(1)>button:nth-child(4){
+        /*  Download CV */
+        position: absolute;
+        width: 170px;
+        height: 70px;
+        margin-left: 38px;
+        text-align: center;
+        background: #9EE473;
+        border-radius: 30px;
+        border: 0;
+        margin-top: 91px;
+        cursor: pointer;
+        box-shadow: 10px 10px 22px -1px #282828;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 23px;
+
+    }
+
+    main>section:nth-child(1)>button:nth-child(5){
+        /*  Contact*/
+        width: 139px;
+        height: 70px;
+        margin-left: 247px;
+        text-align: center;
+        background: -webkit-linear-gradient(#7E89E9,#72DCE2);
+        border-radius: 30px;
+        border: 0;
+        margin-top: 92px;
+        cursor: pointer;
+        box-shadow: 10px 10px 22px -1px #282828;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+
+    }
+
+    main>section:nth-child(1)>div:nth-child(6){
+        margin-left: 50px;
+        padding-top: 290px;
+        height: 95px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    main>section:nth-child(1)>div:nth-child(6)>img{
+        padding-left: 45px;
+        width: 40px;
+        height: 40px;
+    }
+
+    main>section:nth-child(2){
+        width: 100%;
+        position: absolute;
+        height: 110vh;
+        background: rgb(195,195,195);
+        background: linear-gradient(0deg, rgb(195, 195, 195) 0%, rgba(223,223,223,1) 100%);
+        top: 127vh;
+
+    }
+
+    main>section:nth-child(2)>p:nth-child(1)>span{
+        background-image: linear-gradient(transparent 57px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+    }
+
+    main>section:nth-child(2)>p:nth-child(1){
+        /*About me*/
+        padding-top: 8vh;
+        padding-left: 6vw;
+        font-size: 44px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(#242424, #4b4b4b, #4d2a52);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    main>section:nth-child(2)>img{
+        margin-left: 3vw;
+        margin-top: 10vh;
+        width: 22vw;
+        height: 55vh;
+        border: 10px solid #A69D9D;
+        border-radius: 20px;
+    }
+
+    main>section:nth-child(2)>p:nth-child(3){
+        position: absolute;
+        top: 21vh;
+        left: 31vw;
+        font-size: 23px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        color: black;
+    }
+
+    main>section:nth-child(2)>div:nth-child(4){
+        position: absolute;
+        top: 45vh;
+        left: 32vw;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'IBM Plex Mono', monospace;
+        color: black;
+    }
+
+    main>section:nth-child(2)>div:nth-child(4)>p{
+        margin-top: 0vh;
+    }
+
+    main>section:nth-child(2)>div:nth-child(5){
+        position: absolute;
+        top: 45vh;
+        left: 52vw;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: black;
+    }
+
+    main>section:nth-child(2)>div:nth-child(5)>p{
+        margin-top: 0vh;
+    }
+
+
+    main>div:nth-child(3){
+        /*Line 1*/
+        position: absolute;
+        width: 100%;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 127vh;
+        height: 2px;
+    }
+
+
+    main>section:nth-child(4){
+        width: 100%;
+        position: absolute;
+        height: 110vh;
+        background: rgb(226,226,226);
+        background: linear-gradient(0deg, rgba(226,226,226,1) 0%, rgba(189,189,189,1) 100%);
+        top: 223vh;
+    }
+
+    main>section:nth-child(4)>p:nth-child(1){
+        /*Skills*/
+        padding-top: 6vh;
+        padding-left: 6vw;
+        font-size: 44px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    main>section:nth-child(4)>p:nth-child(1)>span{
+        background-image: linear-gradient(transparent 57px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+    }
+
+    main>section:nth-child(4)>div:nth-child(2){
+        padding-top: 0vh;
+        height: 45vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div{
+        position: relative;
+        width: 18vw;
+        height: 24vh;
+        background: #FFF2DA;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div{
+        /*  Back Circle and Red Circle*/
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 11px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #C9C9C9;
+        background-image: /* 10% = 126deg = 90 + ( 360 * .1 ) */ linear-gradient(90deg, transparent 50%, #CC2D2D 50%), linear-gradient(30deg, #CC2D2D 50%, transparent 50%);
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>div{
+        position: absolute;
+        width: 52px;
+        height: 53px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>div>div>h1{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        top: 4px;
+        left: 9px;
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>img{
+        width: 8vw;
+        height: 10vh;
+        position: absolute;
+        top: 5vh;
+        right: 0vw;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(1)>p{
+        font-size: 14px;
+        position: absolute;
+        top: 13vh;
+        right: 2vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div{
+        /*  Back Circle and Orange Circle*/
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 11px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #C9C9C9;
+        background-image:
+                linear-gradient(90deg, transparent 50%, #F88600 50%),
+                linear-gradient(25deg, #F88600 50%, transparent 50%);
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>div{
+        position: absolute;
+        width: 52px;
+        height: 53px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>div>div>h1{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        top: 4px;
+        left: 9px;
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>img{
+        width: 8vw;
+        height: 11vh;
+        position: absolute;
+        top: 5vh;
+        right: 0vw;
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(2)>p{
+        font-size: 14px;
+        position: absolute;
+        top: 14vh;
+        right: 1.5vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div{
+        /*  Back Circle and Yellow Circle*/
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 11px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #C9C9C9;
+        background-image:
+                linear-gradient(90deg, transparent 50%, #0054F8 50%),
+                linear-gradient(35deg, #0054F8 50%, transparent 50%);
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div>div{
+        position: absolute;
+        width: 52px;
+        height: 53px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>div>div>h1{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        top: 4px;
+        left: 9px;
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>img{
+        width: 8vw;
+        height: 11vh;
+        position: absolute;
+        top: 5vh;
+        right: 0vw;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(3)>p{
+        font-size: 14px;
+        position: absolute;
+        top: 14vh;
+        right: 2vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>div{
+        /*  Back Circle and Orange Circle*/
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 11px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #C9C9C9;
+        background-image:
+                linear-gradient(90deg, transparent 50%, #AD9C04 50%),
+                linear-gradient(20deg, #AD9C04 50%, transparent 50%);
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>div>div{
+        position: absolute;
+        width: 52px;
+        height: 53px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>div>div>h1{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        top: 4px;
+        left: 9px;
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>img{
+        width: 8vw;
+        height: 11vh;
+        position: absolute;
+        top: 5vh;
+        right: 0vw;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(4)>p{
+        font-size: 14px;
+        position: absolute;
+        top: 13vh;
+        right: 1.5vw;
+        font-family: 'Roboto', sans-serif;
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>div{
+        /*  Back Circle and Orange Circle*/
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        left: 11px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #C9C9C9;
+        background-image:
+                linear-gradient(90deg, transparent 50%, #04AD15 50%),
+                linear-gradient(23deg, #04AD15 50%, transparent 50%);
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>div>div{
+        position: absolute;
+        width: 52px;
+        height: 53px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        border-radius: 50%;
+        background: #FFFFFF;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>div>div>h1{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        top: 4px;
+        left: 9px;
+
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>img{
+        width: 6vw;
+        height: 9vh;
+        position: absolute;
+        top: 6vh;
+        right: 1vw;
+    }
+
+    main>section:nth-child(4)>div:nth-child(2)>div:nth-child(5)>p{
+        font-size: 14px;
+        position: absolute;
+        top: 13vh;
+        right: 1.5vw;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    main>section:nth-child(4)>p:nth-child(3){
+        /*Interests*/
+        padding-top: 0vh;
+        padding-left: 6vw;
+        font-size: 44px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    main>section:nth-child(4)>p:nth-child(3)>span{
+        background-image: linear-gradient(transparent 57px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+    }
+
+    main>section:nth-child(4)>div:nth-child(4){
+        height: 25vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div{
+        position: relative;
+        width: 15vw;
+        height: 23vh;
+        background: #FFF7F7;
+        border: 4px solid #8C3636;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(1)>img{
+
+        width: 11vw;
+        height: 12vh;
+        position: absolute;
+        bottom: 6vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(1)>p{
+        font-size: 11px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom: 1vh;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(2)>img{
+        width: 11vw;
+        height: 12vh;
+        position: absolute;
+        bottom: 6vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(2)>p{
+        font-size: 11px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom: 1vh;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(3)>img{
+        width: 11vw;
+        height: 12vh;
+        position: absolute;
+        bottom: 6vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(3)>p{
+        font-size: 11px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom: 1vh;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(4)>img{
+        width: 11vw;
+        height: 12vh;
+        position: absolute;
+        bottom: 6vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(4)>div:nth-child(4)>div:nth-child(4)>p{
+        font-size: 11px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom: 1vh;
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+    main>div:nth-child(5){
+        /*Line 2*/
+        position: absolute;
+        width: 100%;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 223vh;
+        height: 2px;
+    }
+
+    main>section:nth-child(6){
+        width: 100%;
+        position: absolute;
+        height: 65vh;
+        background: rgb(177,177,177);
+        background: linear-gradient(0deg, rgba(177,177,177,1) 0%, rgba(226,226,226,1) 100%);
+        top: 333vh;
+    }
+
+    main>section:nth-child(6)>p:nth-child(1){
+        /*Projects*/
+
+        padding-top: 6vh;
+        padding-left: 6vw;
+        font-size: 44px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    main>section:nth-child(6)>p:nth-child(1)>span{
+        background-image: linear-gradient(transparent 57px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+    }
+
+    main>section:nth-child(6)>div:nth-child(2){
+        padding-top: 0vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div{
+        position: relative;
+        top: -30px;
+        width: 20vw;
+        height: 26vh;
+        box-sizing: border-box;
+        background: #FFFEE0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 20px;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(1)>img{
+        width: 73px;
+        height: 58px;
+        position: absolute;
+        top: 3vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(1)>p{
+        font-size: 10px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom: 6vh;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(1)>button{
+        /* View Project*/
+        position: absolute;
+        width: 12vw;
+        height: 4vh;
+        text-align: center;
+        background: #44FFE9;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0;
+        bottom: 2vh;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        color: #414141;
+        font-weight: normal;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(2)>img{
+        width: 73px;
+        height: 58px;
+        position: absolute;
+        top: 3vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(2)>p{
+        font-size: 10px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom: 7vh;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(2)>button{
+        /* View Project*/
+        position: absolute;
+        width: 12vw;
+        height: 4vh;
+        text-align: center;
+        background: #44FFE9;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0;
+        bottom: 2vh;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        color: #414141;
+        font-weight: normal;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(3)>img{
+        width: 73px;
+        height: 58px;
+        position: absolute;
+        top: 3vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(3)>p{
+        font-size: 10px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom: 6vh;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(3)>button{
+        /* View Project*/
+        position: absolute;
+        width: 12vw;
+        height: 4vh;
+        text-align: center;
+        background: #44FFE9;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0;
+        bottom: 2vh;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        color: #414141;
+        font-weight: normal;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(4)>img{
+        width: 73px;
+        height: 58px;
+        position: absolute;
+        top: 3vh;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(4)>p{
+        font-size: 10px;
+        position: absolute;
+        right: 0;
+        left: 0;
+        text-align: center;
+        bottom:8vh;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+    }
+
+    main>section:nth-child(6)>div:nth-child(2)>div:nth-child(4)>button{
+        /* View Project*/
+        position: absolute;
+        width: 12vw;
+        height: 4vh;
+        text-align: center;
+        background: #44FFE9;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border: 0;
+        bottom: 2vh;
+        cursor: pointer;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        color: #414141;
+        font-weight: normal;
+    }
+
+    main>section:nth-child(6)>div:nth-child(3){
+        position: absolute;
+        bottom: 2vh;
+        width: 18vw;
+        left: 0;
+        right: 0;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    main>section:nth-child(6)>div:nth-child(3)>div{
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+        border: 2px solid #000000;
+        box-sizing: border-box;
+    }
+
+    main>section:nth-child(6)>div:nth-child(3)>div:nth-child(1){
+        background: #FF7B7B;
+    }
+
+
+    main>div:nth-child(7){
+        /*Line 3*/
+        position: absolute;
+        width: 100%;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 333vh;
+        height: 2px;
+    }
+
+    main>section:nth-child(8){
+        overflow-x: hidden;
+        width: 100%;
+        position: absolute;
+        height: 112vh;
+        background: rgb(203,203,203);
+        background: linear-gradient(0deg, rgba(203,203,203,1) 0%, rgba(177,177,177,1) 100%);
+        top: 398vh;
+    }
+
+    main>section:nth-child(8)>p:nth-child(1){
+        /*Education*/
+        padding-top: 6vh;
+        padding-left: 4vw;
+        font-size: 44px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    main>section:nth-child(8)>p:nth-child(1)>span{
+        background-image: linear-gradient(transparent 57px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+    }
+
+    main>section:nth-child(8)>div:nth-child(2){
+        /*Line*/
+        position: absolute;
+        width: 400px;
+        background: black;
+        transform: rotate(-90.0deg);
+        top: 320px;
+        left: 177px;
+        height: 2px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(3){
+        position: absolute;
+        left: 177px;
+        top: 110px;
+        height: 400px;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    main>section:nth-child(8)>div:nth-child(3)>div{
+        position: relative;
+        width: 15px;
+        height: 15px;
+        border-radius: 100%;
+    }
+
+    main>section:nth-child(8)>div:nth-child(3)>div:nth-child(1){
+        background: #32D556;
+    }
+
+    main>section:nth-child(8)>div:nth-child(3)>div:nth-child(2){
+        background: #0167FF;
+    }
+
+    main>section:nth-child(8)>div:nth-child(3)>div:nth-child(3){
+        background: #FF9901;
+    }
+
+    main>section:nth-child(8)>div:nth-child(3)>div:nth-child(4){
+        background:#FF0101;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4){
+        position: relative;
+        height: 90px;
+        width: 166px;
+        border: 2px solid black;
+        border-top: 3px solid #32D456;
+        background: gainsboro;
+        left: 111px;
+        top: -20px;
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: center;
+        -webkit-transform: translate(50%, 50%);
+        transform: translate(50%, 50%);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4):after{
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        left: 104%;
+        top: 65%;
+        background: gainsboro;
+        border-top: 2px solid black;
+        border-left: none;
+        border-bottom: none;
+        border-right: 2px solid black;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4)>h1:nth-child(1){
+        position: absolute;
+        top: -5px;
+        font-size: 17px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4)>h1:nth-child(2){
+        position: absolute;
+        top: 32px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #545454;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(4)>h1:nth-child(3){
+        position: absolute;
+        top: 55px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 13px;
+        left: 10px;
+        font-weight: 600;
+    }
+
+    main>section:nth-child(8)>div:nth-child(5){
+        position: relative;
+        height: 90px;
+        width: 166px;
+        border: 2px solid black;
+        border-top: 5px solid #0167FF;
+        background: gainsboro;
+        left: 395px;
+        top: 37px;
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(5):after{
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        left: 2px;
+        top: 60%;
+        background: gainsboro;
+        border-top: 2px solid black;
+        border-left: none;
+        border-bottom: none;
+        border-right: 2px solid black;
+        transform: rotate(225deg);
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(5)>h1:nth-child(1){
+        position: absolute;
+        top: -5px;
+        font-size: 17px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(5)>h1:nth-child(2){
+        position: absolute;
+        top: 35px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #545454;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(5)>h1:nth-child(3){
+        position: absolute;
+        top: 59px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 9px;
+        left: 10px;
+        font-weight: 600;
+    }
+
+    main>section:nth-child(8)>div:nth-child(6){
+        position: relative;
+        height: 82px;
+        width: 166px;
+        border: 2px solid black;
+        border-top: 3px solid #FF9901;
+        background: gainsboro;
+        left: 111px;
+        top: 9px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        -webkit-transform: translate(50%, 50%);
+        transform: translate(50%, 50%);
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(6):after{
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        left: 104%;
+        top: 65%;
+        background: gainsboro;
+        border-top: 2px solid black;
+        border-left: none;
+        border-bottom: none;
+        border-right: 2px solid black;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(6)>h1:nth-child(1){
+        position: absolute;
+        top: -5px;
+        font-size: 17px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(6)>h1:nth-child(2){
+        position: absolute;
+        top: 30px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #545454;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(6)>h1:nth-child(3){
+        position: absolute;
+        top: 50px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 11px;
+        left: 10px;
+        font-weight: 600;
+    }
+
+    main>section:nth-child(8)>div:nth-child(7){
+        position: relative;
+        height: 90px;
+        width: 166px;
+        border: 2px solid black;
+        border-top: 3px solid #FF0000;
+        background: gainsboro;
+        left: 395px;
+        top: 66px;
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 15px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(7):after{
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        left: 2px;
+        top: 60%;
+        background: gainsboro;
+        border-top: 2px solid black;
+        border-left: none;
+        border-bottom: none;
+        border-right: 2px solid black;
+        transform: rotate(225deg);
+        margin-top: -10px;
+        margin-left: -10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(7)>h1:nth-child(1){
+        position: absolute;
+        top: -5px;
+        font-size: 17px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(7)>h1:nth-child(2){
+        position: absolute;
+        top: 35px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        color: #545454;
+        left: 10px;
+    }
+
+    main>section:nth-child(8)>div:nth-child(7)>h1:nth-child(3){
+        position: absolute;
+        top: 55px;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 11px;
+        left: 10px;
+        font-weight: 600;
+    }
+
+
+    main>div:nth-child(9){
+        /*Line 4*/
+        position: absolute;
+        width: 100%;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 398vh;
+        height: 2px;
+    }
+
+    main>section:nth-child(10){
+        width: 100%;
+        position: relative;
+        height: 58vh;
+        background: rgb(185,182,182);
+        background: linear-gradient(0deg, rgba(185,182,182,1) 0%, rgba(177,177,177,1) 100%);
+        top: 510vh;
+    }
+
+    main>section:nth-child(10)>p:nth-child(1){
+        /*Testimonial*/
+        padding-top: 8vh;
+        padding-left: 4vw;
+        font-size: 44px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    main>section:nth-child(10)>p:nth-child(1)>span{
+        background-image: linear-gradient(transparent 57px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+    }
+
+    main>section:nth-child(10)>div:nth-child(2){
+        position: absolute;
+        width: 583px;
+        height: 144px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 122px;
+        background: #FFFFFF;
+        border-radius: 19px;
+        border-bottom: 5px solid #00FA82;
+    }
+
+    main>section:nth-child(10)>div:nth-child(2)>h1{
+        position: absolute;
+        font-size: 16px;
+        font-weight: 600;
+        font-family: 'IBM Plex Sans', sans-serif;
+        top: 30px;
+        left: 18px;
+    }
+
+    main>section:nth-child(10)>div:nth-child(2)>p{
+        position: absolute;
+        font-size: 13px;
+        font-weight: 400;
+        font-family: 'IBM Plex Sans', sans-serif;
+        top: 60px;
+        left: 35px;
+    }
+
+    main>section:nth-child(10)>div:nth-child(2)>img:nth-child(3){
+        position: absolute;
+        width: 25px;
+        height: 22px;
+        bottom: 15px;
+        right: 25px;
+        transform: rotate(90deg);
+    }
+
+    main>section:nth-child(10)>div:nth-child(2)>img:nth-child(4){
+        position: absolute;
+        width: 25px;
+        height: 22px;
+        bottom: 15px;
+        right: 60px;
+        transform: rotate(270deg);
+    }
+
+    main>div:nth-child(11){
+        /*Line 5*/
+        position: absolute;
+        width: 100%;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 510vh;
+        height: 2px;
+    }
+
+    main>section:nth-child(12){
+        width: 100%;
+        position: absolute;
+        height: 140vh;
+        background: rgb(218,218,218);
+        background: linear-gradient(0deg, rgba(218,218,218,1) 0%, rgba(179,179,179,1) 100%);
+        top: 568vh;
+    }
+
+    main>section:nth-child(12)>p:nth-child(1){
+        /*Contact Me*/
+        padding-top: 6vh;
+        padding-left: 4vw;
+        font-size: 44px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        color: rgb(219,219,219);
+        background: -webkit-linear-gradient(#000000, #3e3e3e, #430d44);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+    }
+
+    main>section:nth-child(12)>p:nth-child(1)>span{
+        background-image: linear-gradient(transparent 57px, rgb(61, 61, 61), rgba(53, 3, 56, 0.42));
+    }
+
+    main>section:nth-child(12)>p:nth-child(2){
+        position: absolute;
+        top: 104px;
+        left: 32px;
+        color: red;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    main>section:nth-child(12)>p:nth-child(3){
+        /*Your Name*/
+        position: absolute;
+        top: 140px;
+        left: 32px;
+        color: #000B6B;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+
+    main>section:nth-child(12)>input:nth-child(4){
+        position: absolute;
+        width: 210px;
+        height: 20px;
+        top: 184px;
+        left: 32px;
+        border: 1px solid black;
+        box-shadow: 2px 8px 7px -5px #282828;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        background: lightgray;
+
+    }
+
+    main>section:nth-child(12)>p:nth-child(5){
+        /*Email*/
+        position: absolute;
+        top: 140px;
+        left: 350px;
+        color: #000B6B;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    main>section:nth-child(12)>input:nth-child(6){
+        position: absolute;
+        width: 210px;
+        height: 20px;
+        top: 184px;
+        left: 350px;
+        border: 1px solid black;
+        box-shadow: 2px 8px 7px -5px #282828;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        background: lightgray;
+    }
+
+    main>section:nth-child(12)>p:nth-child(7){
+        position: absolute;
+        top: 210px;
+        left: 32px;
+        color: #000B6B;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    main>section:nth-child(12)>textarea:nth-child(8){
+        position: absolute;
+        width: 400px;
+        height: 110px;
+        top: 280px;
+        left: 32px;
+        border: 1px solid black;
+        box-shadow: 2px 10px 11px -5px #282828;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        background: lightgray;
+    }
+
+    main>section:nth-child(12)>button:nth-child(9){
+        position: absolute;
+        width: 93px;
+        height: 40px;
+        text-align: center;
+        top: 353px;
+        left: 470px;
+        background: #416ECA;
+        border: 0;
+        cursor: pointer;
+        box-shadow: 1px 8px 13px -2px #282828;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: white;
+
+    }
+
+    main>section:nth-child(12)>div:nth-child(10){
+        /*Line*/
+        position: absolute;
+        width: 100%;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 450px;
+        height: 1px
+    }
+
+    main>section:nth-child(12)>img:nth-child(11){
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        top: 478px;
+    }
+
+    main>section:nth-child(12)>p:nth-child(12){
+        position: absolute;
+        top: 462px;
+        left: 65px;
+        color: #000000;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    main>section:nth-child(12)>p:nth-child(13){
+        position: absolute;
+        top: 484px;
+        left: 65px;
+        color: #000000;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    main>section:nth-child(12)>img:nth-child(14){
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        top: 545px;
+    }
+
+    main>section:nth-child(12)>p:nth-child(15){
+        position: absolute;
+        top: 530px;
+        left: 65px;
+        color: #000000;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    main>section:nth-child(12)>p:nth-child(16){
+        position: absolute;
+        top: 550px;
+        left: 65px;
+        color: #000000;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+
+    main>section:nth-child(12)>img:nth-child(17){
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        top: 610px;
+    }
+
+    main>section:nth-child(12)>p:nth-child(18){
+        position: absolute;
+        top: 595px;
+        left: 65px;
+        color: #000000;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    main>section:nth-child(12)>p:nth-child(19){
+        position: absolute;
+        top: 617px;
+        left: 65px;
+        width:145px;
+        color: #000000;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+    }
+
+    main>section:nth-child(12)>img:nth-child(20){
+        position: absolute;
+        width: 350px;
+        height: 190px;
+        left: 320px;
+        top: 485px;
+    }
+
+    main>div:nth-child(13){
+        /*Line 6*/
+        position: absolute;
+        width: 100%;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 568vh;
+        height: 2px;
+    }
+
+    main>section:nth-child(14){
+        width: 100%;
+        position: absolute;
+        height: 12vh;
+        background: #C1C1C1;
+        top: 708vh;
+    }
+
+    main>section:nth-child(14)>div:nth-child(1){
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50px;
+        margin: auto;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    main>section:nth-child(14)>div:nth-child(1)>img{
+        width: 25px;
+        height: 25px;
+    }
+
+    main>section:nth-child(14)>div:nth-child(2){
+        /*Line*/
+        position: absolute;
+        width: 100px;
+        background: black;
+        transform: rotate(-0.0deg);
+        top: 0;
+        bottom: 0;
+        left: 400px;
+        margin: auto;
+        height: 2px;
+    }
+
+    main>section:nth-child(14)>p:nth-child(3){
+        position: absolute;
+        font-family: 'Ibarra Real Nova', serif;
+        left: 520px;
+        font-size: 22px;
+        padding-top: 0vh;
+    }
+
+    main>section:nth-child(15){
+        width: 100%;
+        position: absolute;
+        height: 10vh;
+        background: #CBCDBB;
+        top: 720vh;
+    }
+
+    main>section:nth-child(15)>h1{
+        position: absolute;
+        font-family: "IBM Plex Sans";
+        font-weight: 600;
+        text-align: center;
+        left: 0;
+        right: 0;
+        top: 10px;
+        margin: auto;
+        font-size: 17px;
+    }
+
+    main>section:nth-child(15)>h3{
+        position: absolute;
+        font-family: "IBM Plex Sans";
+        color: #7A7A7A;
+        font-weight: 600;
+        text-align: center;
+        left: 0;
+        right: 0;
+        bottom: 6px;
+        margin: auto;
+        font-size: 12px;
+    }
 
 }
 
